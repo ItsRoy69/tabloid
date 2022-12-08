@@ -1,0 +1,56 @@
+.SecSix{
+    margin: 8rem 0;
+}
+
+.form{
+    display: flex;
+    justify-content: right;
+}
+
+.SectionSix{
+    margin-bottom: 10px;
+}
+
+.SectionSix__pOne{
+    color: #f7f7f7;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.SectionSix__pTwo{
+    color: #f7f7f7;
+    font-size: 55px;
+    line-height: 63px;
+    margin: 1rem 0;
+}
+
+.form__section{
+    display: flex;
+    gap: 3rem;
+}
+
+.form__input{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form__check{
+    color: white;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:750px) {
+    .form__section{
+        display: flex;
+        flex-direction: column;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

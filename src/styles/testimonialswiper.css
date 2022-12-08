@@ -1,0 +1,36 @@
+.testimonials{
+    color: #f7f7f7;
+    display: flex;
+    gap: 2rem;
+}
+
+.testimonialSection{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.nameJob{
+    font-size: 30px;
+}
+
+.company{
+    font-size: 15px;
+}
+
+.swiper-wrapper{
+    height: 50vh;
+}
+
+.message{
+    font-size: 25px;
+}
+
+@media only screen and (max-width:500px) {
+    .testimonials{
+        color: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }   
+}

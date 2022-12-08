@@ -1,0 +1,114 @@
+.SectionOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -3.5rem;
+}
+
+.SectionOne__pOne{
+    color: white;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.SectionOne__pTwo{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.SectionOne__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 1rem;
+}
+
+.OrangePoint{
+    background: linear-gradient(45deg, #F9D423, #FF4E50);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+.blackButton{
+    background-color: #111;
+    border: 1px solid white;
+    color: white;
+}
+
+.blackButton:hover{
+    background: linear-gradient(45deg, #F9D423, #FF4E50);
+    color: #111;
+    border: none;
+}
+
+.orangeButton, .blackButton{
+    padding: 1rem 2rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.orangeButton{
+    background: linear-gradient(45deg, #F9D423, #FF4E50);
+    color: #111;
+    border: none;
+}
+
+.orangeButton:hover{
+    border: 1px solid white;
+    color: white;
+    background: rgb(0, 0, 0);
+}
+
+
+@media only screen and (max-width:500px) {
+    .SectionOne__button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        gap: 1rem;
+    }
+    .SectionOne__pTwo{
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .SectionOne__button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        gap: 1rem;
+    }
+    .SectionOne__pTwo{
+        font-size: 3.5rem;
+        color: white;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .SectionOne__button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        gap: 1rem;
+    }
+    .SectionOne__pTwo{
+        font-size: 4rem;
+        color: white;
+        text-align: center;
+    }
+}

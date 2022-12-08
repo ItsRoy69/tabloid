@@ -1,0 +1,20 @@
+.SectionFive{
+    margin: 8rem 0;
+    padding: 0 8vw;
+}
+
+.SectionFive__pOne{
+    color: #f7f7f7;
+    text-align: center;
+}
+
+.SectionFive__pTwo{
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.SectionFive__testimonial{
+    margin: 4rem 0;
+}

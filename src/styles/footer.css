@@ -1,0 +1,33 @@
+.footer{
+    background-color: black;
+    padding: 3rem 7rem;
+    border-top: 1px solid #f7f7f7;
+}
+
+.Footer__brand{
+    color: #f7f7f7;
+    font-size: 2.1rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 2rem;
+}
+
+.Footer__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Info__One, .Info__Two{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    color: #f7f7f7;
+}
+
+@media only screen and (max-width:900px){
+    .Info__One{
+        display: none;
+    }
+}
