@@ -2,11 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-✔ Each section of the homepage must be a separate react component
-✔ No hardcoding of text in react app. All the content (text and images) must be coming from a Headless CMS through its API (Example API reference ). 
-✔ Prettier and Linter configuration
-✔ Readme file on how to deploy and run the service.
-
 ## Available Scripts
 
 In the project directory, you can run:
